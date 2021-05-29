@@ -7,8 +7,6 @@ let package = Package(
     name: "DotKit+SnapKit",
     platforms: [
         .iOS(.v10),
-        .tvOS(.v9),
-        .macOS(.v10_10),
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.

@@ -6,7 +6,7 @@ A description of this package.
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/E13Lau/DotKit.git", from: "0.0.1"),
+    .package(url: "https://github.com/E13Lau/DotKit-SnapKit.git", from: "0.0.1"),
 ]
 ```
 
