@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "DotKit",
+        "repositoryURL": "https://github.com/E13Lau/DotKit.git",
+        "state": {
+          "branch": null,
+          "revision": "ab929415c799d5e43de1ea288aee620962b5734d",
+          "version": "0.0.1"
+        }
+      },
+      {
+        "package": "SnapKit",
+        "repositoryURL": "https://github.com/SnapKit/SnapKit.git",
+        "state": {
+          "branch": null,
+          "revision": "d458564516e5676af9c70b4f4b2a9178294f1bc6",
+          "version": "5.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
