@@ -17,7 +17,7 @@ let package = Package(
             targets: ["DotKit+SnapKit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/E13Lau/DotKit.git", from: "0.0.1"),
+        .package(url: "https://github.com/E13Lau/DotKit.git", .upToNextMinor(from: "0.0.1")),
         .package(url: "https://github.com/SnapKit/SnapKit.git", .upToNextMajor(from: "5.0.1")),
     ],
     targets: [
