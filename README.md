@@ -11,7 +11,7 @@ dependencies: [
 ```
 
 ```ruby
-    pod 'DotKit', '~> 0.0.2'
+pod 'DotKit+SnapKit', '~> 0.0.2'
 ```
 
 ## Usage
