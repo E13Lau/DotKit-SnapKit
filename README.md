@@ -6,15 +6,19 @@ A description of this package.
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/E13Lau/DotKit-SnapKit.git", from: "0.0.1"),
+    .package(url: "https://github.com/E13Lau/DotKit-SnapKit.git", from: "0.0.2"),
 ]
+```
+
+```ruby
+    pod 'DotKit', '~> 0.0.2'
 ```
 
 ## Usage
 
 ```swift
 UIView()
-    .dd
+    .dk
     .backgroundColor(.red)
     .asSubviewAdd(to: view)
     .makeConstraints {

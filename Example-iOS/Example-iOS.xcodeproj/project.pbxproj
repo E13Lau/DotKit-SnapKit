@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BAC3FC7266B3CBA004ADA7E /* DotKit+SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5BAC3FC6266B3CBA004ADA7E /* DotKit+SnapKit */; };
 		5BB4B4A02662660F00A9517F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB4B49F2662660F00A9517F /* AppDelegate.swift */; };
 		5BB4B4A22662660F00A9517F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB4B4A12662660F00A9517F /* SceneDelegate.swift */; };
 		5BB4B4A42662660F00A9517F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB4B4A32662660F00A9517F /* ViewController.swift */; };
 		5BB4B4A72662660F00A9517F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB4B4A52662660F00A9517F /* Main.storyboard */; };
 		5BB4B4A92662661000A9517F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB4B4A82662661000A9517F /* Assets.xcassets */; };
 		5BB4B4AC2662661000A9517F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB4B4AA2662661000A9517F /* LaunchScreen.storyboard */; };
-		5BB4B4B52662661800A9517F /* DotKit+SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5BB4B4B42662661800A9517F /* DotKit+SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BB4B4B52662661800A9517F /* DotKit+SnapKit in Frameworks */,
+				5BAC3FC7266B3CBA004ADA7E /* DotKit+SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 			);
 			name = "Example-iOS";
 			packageProductDependencies = (
-				5BB4B4B42662661800A9517F /* DotKit+SnapKit */,
+				5BAC3FC6266B3CBA004ADA7E /* DotKit+SnapKit */,
 			);
 			productName = "Example-iOS";
 			productReference = 5BB4B49C2662660F00A9517F /* Example-iOS.app */;
@@ -356,7 +356,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5BB4B4B42662661800A9517F /* DotKit+SnapKit */ = {
+		5BAC3FC6266B3CBA004ADA7E /* DotKit+SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = "DotKit+SnapKit";
 		};

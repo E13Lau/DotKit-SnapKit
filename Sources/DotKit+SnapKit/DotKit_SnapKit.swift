@@ -2,7 +2,7 @@ import SnapKit
 import DotKit
 import UIKit
 
-extension Dotdot where Base: UIView {
+extension Dotkit where Base: UIView {
     @discardableResult
     public func makeConstraints(_ closure: (_ make: ConstraintMaker) -> Void) -> Self {
         base.snp.makeConstraints(closure)
